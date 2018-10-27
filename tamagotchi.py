@@ -314,8 +314,8 @@ while True:
         ind = 1
     draw.line((0,43,83,43),fill=0)
     draw.line((0,44,83,44),fill=0)
-   # if xx >= float(67) and xx<= float(80) and dist <= 7:
-    #    break
+    if xx >= float(67) and xx<= float(80) and dist <= 7:
+        break
 
 # Display image.
     disp.image(image)
